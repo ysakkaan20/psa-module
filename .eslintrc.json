@@ -1,0 +1,65 @@
+{
+  "root": true,
+  "extends": [
+    "airbnb"
+    //    "prettier" npm install --save-dev eslint-config-prettier
+  ],
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest": true,
+    "browser": true,
+    "commonjs": true,
+    "jquery": true
+  },
+  "ignorePatterns": [
+    "package*.json",
+    "public/**/*",
+    "vendor/**/*",
+    "node_modules"
+  ],
+  "rules": {
+    "linebreak-style": "off",
+    "no-unused-vars": "warn",
+    "no-console": "off",
+    "max-len": "off",
+    "no-param-reassign": "warn",
+    "radix": "off",
+    "no-use-before-define": "warn",
+    "import/no-dynamic-require": 0,
+    "no-underscore-dangle": 0,
+    "no-return-await": 0,
+    "global-require": 0,
+    "consistent-return": 0,
+    "no-plusplus": 0,
+    "guard-for-in": 0,
+    "no-await-in-loop": 0,
+    "class-methods-use-this": 0,
+    "no-restricted-syntax": "warn",
+    // borwser
+    "no-undef": "warn",
+    "no-inner-declarations": 0,
+    "no-restricted-globals": 0,
+    //    "no-unused-vars": [
+    //      "error",
+    //      {
+    //        "vars": "all",
+    //        "argsIgnorePattern": "[logger|next|config]",
+    //        "args": "after-used",
+    //        "ignoreRestSiblings": false
+    //      }
+    //    ],
+    // "radix": [
+    //   "error",
+    //   "as-needed"
+    // ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ]
+  }
+}
